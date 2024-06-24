@@ -204,12 +204,12 @@ header .nav-bottom{
 
 
 #doacoes{
-    width: 100%;
+    width: 1920px;
     height: 850px;
     background-color: var(--bg2);
 }
 .doacoes h5{
-    width: 80%;
+    width: 1400px;
     margin: 60px auto 20px auto;
     text-align: center;
 }
@@ -280,7 +280,11 @@ background-color: var(--bg2);
     margin: 20px auto;
 }
 
-
+#eventos-sociais{
+    width: 100vw;
+    height: 850px;
+    background-image: url('../images/bg-eventos.png');
+}
 
 #footer{
     width: 100vw;
