@@ -16,7 +16,7 @@
     --teal: #20c997;
     --cyan: #17a2b8;
     --white: #fff;
-    --bg2: #f8fcff;
+    --bg2: #f5f9fd;
     --gray: #6c757d;
     --gray-dark: #343a40;
     --primary: #007bff;
@@ -52,4 +52,18 @@ a{
 }
 span{
     cursor: pointer;
+}
+
+h5{
+    font-family: "Times New Roman", sans-serif;
+    font-size: 20px;
+    color: var(--cor-principal);
+}
+
+h2{
+    font-family: "Mulish", sans-serif;
+    font-size: 42px;
+    color: var(--titulos);
+    font-weight: 850;
+    text-align: center;
 }

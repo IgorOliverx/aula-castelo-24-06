@@ -23,3 +23,76 @@ span:hover{
     color: var(--cor-principal);
          }
 }
+
+.nav-top svg:hover{
+    animation: svg 0.2s forwards ease-in;
+}
+@keyframes svg {
+   0%{
+
+   } 100%{
+    color: var(--cor-principal);
+        }
+}
+
+
+.card:hover{
+    cursor: pointer;
+    animation: card 0.5s ease-in-out forwards;
+}
+
+.card:hover .article-logo{
+    animation: logo-svg 0.5s ease-in-out forwards;
+}
+.card:hover .article-logo svg{
+    animation: article-svg 0.5s ease-in-out forwards;
+}
+
+.card:hover .cont-missao h3{
+    animation: title 0.5s ease-in-out forwards;
+}
+
+.card:hover .cont-missao P{
+    animation: conteudo 0.5s ease-in-out forwards;
+}
+
+@keyframes card {
+    0%{
+
+    }100%{
+             background-color: var(--cor-principal);
+         }
+}
+
+@keyframes logo-svg {
+    0%{
+
+    }100%{
+             background-color: var(--white);
+         }
+}
+@keyframes article-svg {
+    0%{
+
+    }100%{
+     color: var(--cor-principal);
+     }
+}
+
+@keyframes title {
+    0%{
+
+    }100%{
+        color: var(--white);
+         }
+}
+
+@keyframes conteudo {
+    0%{
+
+    }100%{
+         color: var(--bg2);
+     }
+}
+
+
