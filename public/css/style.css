@@ -201,10 +201,20 @@ header .nav-bottom{
     height: 667px;
     width: 667px;
 }
+.esq h2{
+margin-top: -151px;
+}
 
+.esq p {
+    margin-top: -120px;
+    width: 500px;
+    padding: 20px;
+    text-align: justify;
+    color: #57667e;
+}
 
 #doacoes{
-    width: 1920px;
+    width: 100vw;
     height: 850px;
     background-color: var(--bg2);
 }
@@ -284,6 +294,12 @@ background-color: var(--bg2);
     width: 100vw;
     height: 850px;
     background-image: url('../images/bg-eventos.png');
+}
+
+
+.card-evento{
+    width: 75%;
+    margin: 25px auto;
 }
 
 #footer{
